@@ -102,7 +102,6 @@ module.exports = {
         .json({ success: false, message: MESSAGE.INTERNAL_SERVER_ERROR });
     }
   },
-
   /* update calender event by ID */
   async update(req, res) {
     try {
